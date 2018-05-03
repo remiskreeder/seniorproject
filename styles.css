@@ -1,3 +1,29 @@
 h1 {
-  color: green;
+  color: blue;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+th, td{
+  border: 2px solid blue;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+.optioncategory{
+  color: purple;
+}
+body {
+  font-family: 'Anton', sans-serif;
+}
+.symptom {
+  background-color: #d60012;
+  min-height: 100px;
+  min-width: 100px;
 }

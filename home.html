@@ -1,16 +1,127 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Remi's Senior Project</title>
-  </head>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Remi's Senior Project</title>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+  </script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</head>
 
 
-  <body>
-    <img src="Epic-Logo.png" alt="Epic Logo">
-    <h1>Epic</h1>
-    <p>Here is where the Epic stuff will go</p>
-    <a href="symptoms.html">Patient X</a>
-  </body>
+<body>
+  <img src="Epic-Logo.png" alt="Epic Logo">
+  <h1>Epic</h1>
+  <p>Pop Up Chart:</p>
+  <table>
+    <tr>
+      <th>Patient Name</th>
+      <th>Date of Birth</th>
+      <th>Appointment Time</th>
+      <th>Coming in For</th>
+    </tr>
+    <tr>
+      <td>
+        <a href="symptoms.html">Patient X</a>
+      </td>
+      <td>
+        <!-- Dropdown Trigger -->
+        <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+
+        <!-- Dropdown Structure -->
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider" tabindex="-1"></li>
+          <li><a href="#!">three</a></li>
+          <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+        </ul>
+
+      </td>
+      <td>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+      </td>
+      <td>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="symptoms.html">Patient Y</a>
+      </td>
+      <td>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+      </td>
+      <td>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+      </td>
+      <td>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="symptoms.html">Patient Z</a>
+      </td>
+      <td>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+      </td>
+      <td>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+      </td>
+      <td>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+      </td>
+    </tr>
+
+</body>
 
 </html>

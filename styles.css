@@ -1,27 +1,49 @@
 h1 {
   color: blue;
 }
-a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-th, td{
-  border: 2px solid blue;
-}
 
-a:hover, a:active {
-    background-color: red;
-}
-.optioncategory{
-  color: purple;
-}
 body {
   font-family: 'Anton', sans-serif;
 }
+
+
+a:link, a:visited {
+  color: black;
+  padding: 2px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*
+td {
+  border: 2px solid black;
+  text-align: left;
+  padding:10px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+*/
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+.boldtitle{
+ text-transform: uppercase;
+}
+
+.checkbox {
+  text-align: left;
+}
+
+a:hover, a:active {
+  background-color: #f44336;
+}
+
+.optioncategory {
+  color: green;
+  font-weight: bold;
+}
+
+
+
 .symptom {
   background-color: #d60012;
   min-height: 100px;

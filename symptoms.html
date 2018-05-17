@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Symptom Chart</title>
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
   <img src="Epic-Logo.png" alt="Epic Logo">
@@ -19,10 +24,15 @@
     <tr>
       <td>
         <form action="">
-          <a href="expresslane.html">
-            <input type="checkbox" name="vehicle" value="Bike">Sore Throat</a>
-          <input type="checkbox" name="vehicle" value="Car">Physical
-          <input type="checkbox" name="vehicle" value="Car">Pain
+          <a href="expresslane.html?symptom=Sore Throat">
+            <input type="checkbox" name="vehicle" value="Bike">Sore Throat</input>
+          </a>
+          <a href="expresslane.html?symptom=Physical">
+            <input type="checkbox" name="vehicle" value="Car">Physical</input>
+          </a>
+          <a href="expresslane.html?symptom=Pain">
+            <input type="checkbox" name="vehicle" value="Car">Pain</input>
+          </a>
         </form>
       </td>
       <td>
@@ -43,6 +53,12 @@
       </td>
     </tr>
   </table>
+
+  <!-- Calculator -->
+  <input id="firstnumber" type="number" value="0"></input>
+  <input id="secondnumber" type="number" value="6"></input>
+  <button id="multbutton">multiply</button>
+  <h4 id="multiply"></h4>
 
 </body>
 </html>

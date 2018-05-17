@@ -4,8 +4,12 @@ h1 {
 
 body {
   font-family: 'Anton', sans-serif;
+  background-color: #6f777b;
 }
 
+ul {
+  list-style-type: none;
+}
 
 a:link, a:visited {
   color: black;
@@ -15,16 +19,17 @@ a:link, a:visited {
   display: inline-block;
 }
 
-/*
+
 td {
   border: 2px solid black;
   text-align: left;
   padding:10px;
   font-family: 'IBM Plex Mono', monospace;
 }
-*/
+
 
 tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: LightCyan;}
 .boldtitle{
  text-transform: uppercase;
 }
@@ -40,6 +45,22 @@ a:hover, a:active {
 .optioncategory {
   color: green;
   font-weight: bold;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    clear: left;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
 }
 
 

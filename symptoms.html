@@ -10,55 +10,82 @@
   <script src="script.js"></script>
 </head>
 <body>
-  <img src="newlogo4.png" alt="newlogo3" height=300% width=400>
-  <div>
-  </div>
-  <table>
+  <a href="home.html">
+    <img src="newlogo4.png" alt="newlogo3" height=300% width=400>
+  </a>
+  <div class="myelement"></div>
+  <table width=100% height="200%">
     <tr>
       <th>Reason For Visit</th>
       <th>Alergies</th>
       <th>History</th>
-        Reason For Visit
-      </th>
     </tr>
     <tr>
-      <td>
+      <td class="reason">
         <form action="">
-          <a href="expresslane.html?symptom=Sore Throat">
-            <input type="checkbox" name="vehicle" value="Bike">Sore Throat</input>
-          </a>
-          <a href="expresslane.html?symptom=Physical">
-            <input type="checkbox" name="vehicle" value="Car">Physical</input>
-          </a>
-          <a href="expresslane.html?symptom=Pain">
-            <input type="checkbox" name="vehicle" value="Car">Pain</input>
-          </a>
+          <ul>
+            <li>
+              <a href="expresslane.html?symptom=Sore Throat">
+                <input type="checkbox" name="vehicle" value="Bike">Sore Throat</input>
+              </a>
+            </li>
+            <li>
+              <a href="expresslane.html?symptom=Physical">
+                <input type="checkbox" name="vehicle" value="Car">Physical</input>
+              </a>
+            </li>
+            <li>
+              <a href="expresslane.html?symptom=Pain">
+                <input type="checkbox" name="vehicle" value="Car">Pain</input>
+              </a>
+            </li>
+          </ul>
         </form>
       </td>
       <td>
-      <select>
-        <option value="volvo">Pollen</option>
-        <option value="saab">Peanuts</option>
-        <option value="opel">Mold</option>
-        <option value="audi">Dogs</option>
-      </select>
+        <form action="">
+          <ul>
+            <li>
+              <input type="checkbox" name="vehicle" value="Bike">Pollen</input>
+            </li>
+            <li>
+              <input type="checkbox" name="vehicle" value="Car">Peanuts</input>
+            </li>
+            <li>
+              <input type="checkbox" name="vehicle" value="Car">Mold</input>
+            </li>
+            <li>
+              <input type="checkbox" name="vehicle" value="Car">Dogs</input>
+            </li>
+            <li>
+              <input type="checkbox" name="vehicle" value="Car">Shellfish</input>
+            </li>
+          </ul>
+        </form>
       </td>
       <td>
-        <select>
-          <option value="volvo">Blood Pressure</option>
-          <option value="saab">Diabetes</option>
-          <option value="opel">Pneumonia</option>
-          <option value="audi">Insomnia</option>
-        </select>
+        <form action="">
+          <ul>
+            <li>
+              <input type="checkbox" name="vehicle" value="Bike">Blood Pressure</input>
+            </li>
+            <li>
+              <input type="checkbox" name="vehicle" value="Car">Diabetes</input>
+            </li>
+            <li>
+              <input type="checkbox" name="vehicle" value="Car">Pneumonia</input>
+            </li>
+            <li>
+              <input type="checkbox" name="vehicle" value="Car">Insomnia</input>
+            </li>
+            <li>
+              <input type="checkbox" name="vehicle" value="Car">Smoking</input>
+            </li>
+          </ul>
+        </form>
       </td>
     </tr>
   </table>
-
-  <!-- Calculator -->
-  <input id="firstnumber" type="number" value="0"></input>
-  <input id="secondnumber" type="number" value="6"></input>
-  <button id="multbutton">multiply</button>
-  <h4 id="multiply"></h4>
 
 </body>
 </html>

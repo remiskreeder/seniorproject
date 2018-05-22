@@ -9,6 +9,7 @@ body {
 
 ul {
   list-style-type: none;
+  padding-left: 10px;
 }
 
 a:link, a:visited {
@@ -38,7 +39,7 @@ tr:nth-child(odd) {background-color: #e6e6ff;}
 }
 
 a:hover, a:active {
-  background-color: green;
+  background-color: #e6f2ff;
 }
 
 .optioncategory {
@@ -51,6 +52,16 @@ a:hover, a:active {
   width:15%;
 
 }
+
+.reason{
+  width:33%;
+}
+
+.myelement {
+  clear:left;
+  height:25px;
+  margin: 20px;  // See below for explanation of this
+ }
 
 div.container {
     width: 100%;
